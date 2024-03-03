@@ -12,9 +12,9 @@ require("lazy").setup({
     {
       "LazyVim/LazyVim",
       import = "lazyvim.plugins",
-      -- opts = {
-      -- colorme = "solarized-osaka",
-      --}
+      --      opts = {
+      --      colorscheme = "solarized-osaka",
+      --  },
     },
 
     -- import any extras modules here
@@ -22,6 +22,10 @@ require("lazy").setup({
     { import = "lazyvim.plugins.extras.lang.typescript" },
     { import = "lazyvim.plugins.extras.lang.markdown" },
     { import = "lazyvim.plugins.extras.lang.tailwind" },
+    { import = "lazyvim.plugins.extras.lang.go" },
+    { import = "lazyvim.plugins.extras.lang.java" },
+    { import = "lazyvim.plugins.extras.lang.clangd" },
+    { import = "lazyvim.plugins.extras.lang.cmake" },
     { import = "lazyvim.plugins.extras.lang.json" },
     { import = "lazyvim.plugins.extras.util.mini-hipatterns" },
     -- { import = "lazyvim.plugins.extras.ui.mini-animate" },
